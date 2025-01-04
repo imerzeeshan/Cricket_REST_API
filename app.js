@@ -89,7 +89,7 @@ app.get('/players/:playerId/', async (request, response) => {
   }
 
   const finaleDetail = playerDetailsArray.map(eachPlayer => ans(eachPlayer))
-  response.send(finaleDetail[0]);
+  response.send(finaleDetail[0])
 })
 
 //Update player details API
